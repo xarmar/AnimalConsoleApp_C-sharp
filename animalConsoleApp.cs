@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 
 namespace animalConsoleApp
 {
@@ -73,9 +74,15 @@ namespace animalConsoleApp
         // Prompt user for the 'weight' of the animal, return 'porte'
         public static string getSize() {
             Console.WriteLine("Por favor, introduza o peso do animal (em kg): ");
-            float peso = float.Parse(Console.ReadLine());
-            string porte = calculateSize(peso);
-            return porte;
+            string inputString = Console.ReadLine();
+            if (inputString != null && inputString != "" && inputString != "0" && stringOnlyContainsNumbers(inputString)) {
+                float peso = float.Parse(inputString);
+                string porte = calculateSize(peso);
+                return porte;
+            }
+            else {
+                return getSize();
+            }
         }
 
         // Calculate 'porte' of animal based on their weight
@@ -97,7 +104,7 @@ namespace animalConsoleApp
             }
 
             else {
-                porte = "erro";
+                porte = "ERROR";
                 return porte;
             }
         }
@@ -114,6 +121,14 @@ namespace animalConsoleApp
             return true;
         }
 
+        public static Boolean stringOnlyContainsNumbers(string stringToValidate) {
+            Regex rx = new Regex(@"^([0-9][0-9]*)(\.[1-9]+)?$");
+            if (rx.IsMatch(stringToValidate)) {
+                return true;
+            }  
+            Console.WriteLine("\n --- INVÁLIDO: Insira um número positivo arrendodado às unidades ou décimas ---");
+            return false;
+        }
 
         // Print all animals in List
         public static void printAllAnimals() {
