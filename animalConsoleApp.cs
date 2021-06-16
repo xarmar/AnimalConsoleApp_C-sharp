@@ -11,12 +11,14 @@ namespace animalConsoleApp
 
         private string porte;
 
+        // Animal Object Constructor
         public Animal (string especie, string cor, string porte) {
             this.especie = especie;
             this.cor = cor;
             this.porte = porte;
         }
 
+        // Get Animal's properties and return them in a formated string
         public override string ToString() {
             string obj = $"\nParabéns tem um {this.especie} da cor {this.cor} com porte {this.porte}!";
             return obj;
@@ -24,19 +26,20 @@ namespace animalConsoleApp
 
         static public List <Animal> animalList = new List<Animal>();
 
-        public static void mainProgram() {
+        public static void addNewAnimal() {
             // Create a tuple with 3 items: Item1 = Especie, Item2 = Cor, Item3 = Porte.
             var tuple = HelperFunction.getAnimalDetails();
             Animal newAnimal = new Animal(tuple.Item1, tuple.Item2, tuple.Item3);
             animalList.Add(newAnimal);
             Console.WriteLine(newAnimal.ToString());
+            // Gives user extra options before program shuts down
             HelperFunction.giveUserOptions();
         }
 
         static void Main(string[] args)
         {
             Console.WriteLine("Bem-vindo/a. Esta aplicação irá imprimir os detalhes de um animal introduzido à sua escolha.");
-            mainProgram();
+            addNewAnimal();
         }
     }
 
@@ -55,7 +58,7 @@ namespace animalConsoleApp
             Console.WriteLine("\n-> Por favor, introduza a espécie do animal: ");
             string especie = Console.ReadLine();
             // validate input
-            if (especie != null && especie != "" && stringOnlyContainsAlphabeticalChars(especie)) {
+            if (especie != null && especie != "" && stringOnlyContainsAlphabeticalCharacters(especie)) {
                 return especie;
             }
             else {
@@ -68,7 +71,7 @@ namespace animalConsoleApp
             Console.WriteLine("-> Por favor, introduza a cor do animal: ");
             string cor = Console.ReadLine(); 
             // validate input
-            if (cor != null && cor != "" && stringOnlyContainsAlphabeticalChars(cor)) {
+            if (cor != null && cor != "" && stringOnlyContainsAlphabeticalCharacters(cor)) {
                 return cor;
             }
             else {
@@ -115,7 +118,7 @@ namespace animalConsoleApp
         }
 
         // Validate user input - Check if string only has alphabetic characters.
-        public static Boolean stringOnlyContainsAlphabeticalChars(string stringToValidate) {
+        public static Boolean stringOnlyContainsAlphabeticalCharacters(string stringToValidate) {
             for (var i = 0; i < stringToValidate.Length; i++) {
                 var currentChar = stringToValidate[i];
                 if (!char.IsLetter(currentChar) && !char.IsSeparator(currentChar)) {
@@ -154,7 +157,7 @@ namespace animalConsoleApp
 
         public static bool userPressedOneOfTheOptions (ConsoleKeyInfo keyInfo) {
             if (keyInfo.Key == ConsoleKey.D1) {
-                Animal.mainProgram();
+                Animal.addNewAnimal();
                 return true;
             }
             if (keyInfo.Key == ConsoleKey.D2) {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/xarmar/Desktop/Projects/animalConsoleApp/animalConsoleApp.csproj": {}
+    "/home/xarmar/Desktop/Projects/AnimalConsoleApp_C-sharp/animalConsoleApp.csproj": {}
   },
   "projects": {
-    "/home/xarmar/Desktop/Projects/animalConsoleApp/animalConsoleApp.csproj": {
+    "/home/xarmar/Desktop/Projects/AnimalConsoleApp_C-sharp/animalConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/xarmar/Desktop/Projects/animalConsoleApp/animalConsoleApp.csproj",
+        "projectUniqueName": "/home/xarmar/Desktop/Projects/AnimalConsoleApp_C-sharp/animalConsoleApp.csproj",
         "projectName": "animalConsoleApp",
-        "projectPath": "/home/xarmar/Desktop/Projects/animalConsoleApp/animalConsoleApp.csproj",
+        "projectPath": "/home/xarmar/Desktop/Projects/AnimalConsoleApp_C-sharp/animalConsoleApp.csproj",
         "packagesPath": "/home/xarmar/.nuget/packages/",
-        "outputPath": "/home/xarmar/Desktop/Projects/animalConsoleApp/obj/",
+        "outputPath": "/home/xarmar/Desktop/Projects/AnimalConsoleApp_C-sharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/xarmar/.nuget/NuGet/NuGet.Config"
