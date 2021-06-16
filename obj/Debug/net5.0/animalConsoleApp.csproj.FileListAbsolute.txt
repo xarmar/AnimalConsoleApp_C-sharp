@@ -1,0 +1,16 @@
+/home/xarmar/Desktop/Projects/animalConsoleApp/obj/Debug/net5.0/animalConsoleApp.csproj.AssemblyReference.cache
+/home/xarmar/Desktop/Projects/animalConsoleApp/obj/Debug/net5.0/animalConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/xarmar/Desktop/Projects/animalConsoleApp/obj/Debug/net5.0/animalConsoleApp.AssemblyInfoInputs.cache
+/home/xarmar/Desktop/Projects/animalConsoleApp/obj/Debug/net5.0/animalConsoleApp.AssemblyInfo.cs
+/home/xarmar/Desktop/Projects/animalConsoleApp/obj/Debug/net5.0/animalConsoleApp.csproj.CoreCompileInputs.cache
+/home/xarmar/Desktop/Projects/animalConsoleApp/bin/Debug/net5.0/animalConsoleApp
+/home/xarmar/Desktop/Projects/animalConsoleApp/bin/Debug/net5.0/animalConsoleApp.deps.json
+/home/xarmar/Desktop/Projects/animalConsoleApp/bin/Debug/net5.0/animalConsoleApp.runtimeconfig.json
+/home/xarmar/Desktop/Projects/animalConsoleApp/bin/Debug/net5.0/animalConsoleApp.runtimeconfig.dev.json
+/home/xarmar/Desktop/Projects/animalConsoleApp/bin/Debug/net5.0/animalConsoleApp.dll
+/home/xarmar/Desktop/Projects/animalConsoleApp/bin/Debug/net5.0/ref/animalConsoleApp.dll
+/home/xarmar/Desktop/Projects/animalConsoleApp/bin/Debug/net5.0/animalConsoleApp.pdb
+/home/xarmar/Desktop/Projects/animalConsoleApp/obj/Debug/net5.0/animalConsoleApp.dll
+/home/xarmar/Desktop/Projects/animalConsoleApp/obj/Debug/net5.0/ref/animalConsoleApp.dll
+/home/xarmar/Desktop/Projects/animalConsoleApp/obj/Debug/net5.0/animalConsoleApp.pdb
+/home/xarmar/Desktop/Projects/animalConsoleApp/obj/Debug/net5.0/animalConsoleApp.genruntimeconfig.cache

@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/xarmar/Desktop/Projects/animalConsoleApp/animalConsoleApp.csproj": {}
+  },
+  "projects": {
+    "/home/xarmar/Desktop/Projects/animalConsoleApp/animalConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/xarmar/Desktop/Projects/animalConsoleApp/animalConsoleApp.csproj",
+        "projectName": "animalConsoleApp",
+        "projectPath": "/home/xarmar/Desktop/Projects/animalConsoleApp/animalConsoleApp.csproj",
+        "packagesPath": "/home/xarmar/.nuget/packages/",
+        "outputPath": "/home/xarmar/Desktop/Projects/animalConsoleApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/xarmar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
