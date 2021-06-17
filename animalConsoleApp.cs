@@ -135,7 +135,7 @@ namespace animalConsoleApp
             if (rx.IsMatch(stringToValidate)) {
                 return true;
             }  
-            Console.WriteLine("\n --- INVÁLIDO: Insira um número positivo arrendodado às unidades ou décimas ---");
+            Console.WriteLine("\n --- INVÁLIDO: Insira um número positivo arredondado às unidades ou décimas ---");
             return false;
         }
 
